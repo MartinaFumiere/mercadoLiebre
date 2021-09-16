@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color:#EAC926; 
+    padding: 20px;
+}
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+    color: black;
+    padding:0;
+    font-size: 1rem;
+}
+
+.burger-menu {
+    text-align: center;
+    width: auto;
+ margin-top: 5px;
+ margin-bottom: 5px}
+
+.burger-menu i{
+    color: white;
+    background-color:#1259c3;
+    border-radius: 5%;
+    padding: 10px;
+}
+
+body{
+    background-color:#cac6c6;
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
