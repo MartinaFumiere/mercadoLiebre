@@ -82,11 +82,14 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    flex-direction: column;
 }
 .sectionOfertas{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    justify-content: space-around;
+    flex-direction: column;
 }
 .box1{
     flex-grow: 1;
