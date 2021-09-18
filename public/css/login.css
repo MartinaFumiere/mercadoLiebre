@@ -3,37 +3,99 @@
     margin: 0;
     padding: 0;
 }
-header {
-    background-color:#EAC926; 
-    padding: 20px;
-}
-.nav ul li{
-    list-style: none;
-    display: inline-block;
-    color: black;
-    padding:0;
-    font-size: 1rem;
-}
-
-.burger-menu {
-    text-align: center;
-    width: auto;
- margin-top: 5px;
- margin-bottom: 5px}
-
-.burger-menu i{
-    color: white;
-    background-color:#1259c3;
-    border-radius: 5%;
-    padding: 10px;
-}
-
-body{
-    background-color: white;
-    font-size: 1rem;
-    font-weight: 400;
-    color: black;
+body {
     font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 12px;
+}
+
+div.top-header {
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    background-color: #EAC926;
+    max-height: 40vh;
+}
+
+
+header div.logo {
+    padding: 10px;
+    width: 50%;
+}
+
+header div.top-header div.form div.input {
+    border-radius: 5px;
+}
+
+header nav {
+    display: none;
+    font-size: 14px;
+}
+
+header ul li {
+    list-style-type: none;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+header .form{
+    width: 50%;
+    max-width: 200px;
+    display: flex;
+    
+}
+
+header .form .input {
+    background-color: #FFF;
+    border: 1px solid #000;
+    outline: none;
+    color: #666;
+    padding: 2px;
+    font-size: 10px;
+}
+
+header .form .submit {
+    color: #666;
+    height: 20px;
+    margin: 3px;
+
+}
+
+header div.top-header p {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;;
+}
+
+div.burger-menu {
+    text-align: center;
+}
+
+div.burger-menu i {
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
 }
 
 form{
@@ -45,8 +107,94 @@ text-align: center;
 input{
     width: 50vw;
 }
-.nombreDeUsuario{
-    width: 100vw;
-    
+ .BotonEnviar label input:hover{
+    background-color: #0022AA;
+ }
 
+form{
+    padding: 15px;
+    
 }
+form div{
+    padding: 10px;
+    text-align: center;
+}
+footer section {
+    text-align: center;
+    margin-top: 40px;
+    }
+    
+    footer section div i{
+        color: #1259c3;
+        font-size: 2em;
+        line-height: 100px;
+        border-bottom: 100px;
+        margin: auto;
+    }
+    
+    footer section h4, footer section section p{
+    text-align: center;
+    }
+    
+    footer h4{
+        font-size: 16px;
+        font-weight:bolder;
+        color: #666;
+    }
+    
+    footer p{
+        font-size: 12px;
+    }
+    
+    .copyright{
+        text-align: left;
+    }
+    @media (min-width: 361px) {
+
+        header div.top-header div.logo {
+        width: 33%;
+    }
+    
+        header div.top-header div.form {
+        width: 33%;
+        display: flex;
+    }
+    
+        header div.top-header p {
+        width: 33%;
+    }
+    
+        header nav {
+            display: flex;
+            justify-content: space-around;
+    
+        }
+    
+        header nav ul{
+           display: flex;
+        }
+    
+        header nav ul li{
+            margin: 0 5px;
+        }
+    
+        .burger-menu{
+            display: none;
+        }
+    
+    }
+    @media (min-width: 769px) {
+   
+
+        footer section.footer{
+            display: flex;
+        }
+    
+    
+        footer section div i:hover{
+        color: #3283a8;
+        align-content: center;
+    
+    }
+    
+    }

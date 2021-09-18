@@ -1,395 +1,349 @@
- *{
+* {
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+}
 
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
 }
-header {
-    background-color:#EAC926; 
-    padding: 20px;
+
+h3 {
+    font-size: 24px;
 }
-.main-header-top-bar{
+
+p {
+    font-size: 12px;
+}
+
+div.top-header {
+    padding: 1%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    font-size: 1rem;
-    color: #000;
-    }
-
-.Logo{
-    flex-grow: 0.5;
-    width: auto;
-}
-.BarraBusqueda{
-    flex-grow: 0.5;
-
-}
-.compraEnCuotas{
-font-weight: bolder;
-font-size: 1rem;
-display: inline-block;
 }
 
-.nav {
-text-decoration: none;
-display: none;
-padding-top: 5px;
-font-size: 1rem;
-list-style: none;
-}
-.nav ul li{
-    list-style: none;
-    display: inline-block;
-    color: black;
-    padding:0;
-    font-size: 1rem;
+header {
+    background-color: #EAC926;
+    max-height: 40vh;
 }
 
-.burger-menu {
-    text-align: center;
-    width: auto;
- margin-top: 5px;
- margin-bottom: 5px}
 
-.burger-menu i{
-    color: white;
-    background-color:#1259c3;
-    border-radius: 5%;
+header div.logo {
     padding: 10px;
+    width: 50%;
 }
 
-body{
-    background-color:#cac6c6;
-    font-size: 12px;
-    font-weight: bold;
-    color: black;
-    font-family: 'Roboto', sans-serif;
-}
-
-.Banner{
-    width: 100%;
-    height: auto;
-}
-
-.fa-search{
-    size: 2em;
-    background-color:#ebeef3;
-    border-radius:5%;
-    padding: 0.5%;
-}
-.sectionBasado{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    flex-direction: column;
-}
-.sectionOfertas{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    justify-content: space-around;
-    flex-direction: column;
-}
-.box1{
-    flex-grow: 1;
-}
-.box2{
-    flex-grow: 1;
-}
-.box3 .box4 {
-    align-self: flex-end;
-}
-.titular{
-    font-size: 24px;
-    font-weight: bolder;
-    text-align: start;
-}
-
-.precio {
-    font-size: 18px;   
-}
-
-.descuentos{
-    font-size: 16px;
-    color: #39b54a;
-}
-.nombreArticulo{
-    font-weight: bolder;
-    display: none;
-    border: 1px solid red;
-}
-.nombreArticulo :hover{
-display: block;
-}
-
-footer{
-    text-align:center;
-     background-color: white;
-}
-.Copyright{
-    text-align: left;
-    font-weight: bolder;
-    font-size: smaller;
-}
-main{
-    margin: 0;
-    padding: 10px;
-    width: 90%;
-    margin-top: 2px;
-    margin-bottom: 2px;
-    text-align: center;
-}
-
-img{
-    width: 15vw;
-    height: auto;
-}
-
-.fa-credit-card{ 
-    color:#1259c3;
-    size: 2em;
-    margin-bottom: 10px;
-}
-
-.fa-gift{
-    color:#1259c3;
-    size: 2em;
-    margin-bottom: 10px;
-}
-
-.fa-user-shield{
-    color:#1259c3;
-    size: 2em;
-    margin-bottom: 10px;
-}
-
-.fa-truck{
-    color: #39b54a;
-    border: 2px solid #39b54a;
-    border-radius: 50%;
-    padding: 5px;
-    margin-top: 2px;
-    right: 50px;
-    top: -15px;
-    font-size: 16px;
-    background-color: #fff;
-}
-
-article{
-margin: 3px;
-border-top: solid #ebebeb 1px;
-padding: 15px;
-background-color: white;
-text-align: left;
-max-width: 17vw;
-}
-
-.cajaPrecio{
-     display: flex; 
- }
-
-.cajaPrecio .precio{
-flex-grow: 0.3;
-}
-
-.cajaPrecio .descuentos {
-    flex-grow: 0.7;
-}
-
-@media(min-width: 768px){
-.main-header-top-bar{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    }
-
-.compraEnCuotas{
-    max-width: 500px;
-    flex-grow: 1;
-    display: flex;
-    align-self: center;
-   
-}
-.compraEnCuotas p {
-    width: 20vw;
-}
-
-.BarraBusqueda{
-        display: block;
-        font-size: 12px;
-        max-width: 500px;
-        text-align: center;
-        flex-grow: 2;
-        align-self: center;
-        width: 50vw;
-    }
-.BarraBusqueda input{
-        width: 20vw;
-    }
-.Logo{
-        flex-grow: 1;
-        width: 8vw;
-    }
-article{
-    box-shadow: 0px 0px 10px rgb(100,100,100);
+header div.top-header div.form div.input {
     border-radius: 5px;
-    margin-left: 20px;
-    margin-right: 20px;
-    min-width: 180px;
-    text-align: left;
-    width: auto;
 }
-main{
-    padding: 10px;
+
+header nav {
+    display: none;
+    font-size: 14px;
 }
-.nombreArticulo{
-    font-size: 12px;
-    color: #666;
-display: inline-block;
+
+header ul li {
+    list-style-type: none;
 }
-.nav{
-    display:flex;
+
+header ul li a {
+    text-decoration: none;
     color: #000;
-    list-style: none;
-    justify-content: space-around;
-    font-size: 5px;
-}
-.navbarDere{
-    align-self: flex-end;
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 5rem;
-}
-.navbarDere li {
-    width: 15vw;
-    justify-content: space-around;
-    text-align: end;
-}
-.navbarIzq{
-    align-self: flex-end;
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 5rem;
-}
-.navbarIzq li {
-    width: 10vw;
-    justify-content: space-around;
-    text-align: start;
 }
 
-.burger-menu{
-    display: none;
+header .form{
+    width: 50%;
+    max-width: 200px;
+    display: flex;
+    
 }
-.burger-menu i{
-    display: none;
+
+header .form .input {
+    background-color: #FFF;
+    border: 1px solid #000;
+    outline: none;
+    color: #666;
+    padding: 2px;
+    font-size: 10px;
 }
-.fa-truck :hover{
-    transform: rotatex(-90deg);
-    transition-duration: 5seg;
+
+header .form .submit {
+    color: #666;
+    height: 20px;
+    margin: 3px;
 
 }
-@media(min-width: 361px){
-    .main-header-top-bar{
+
+header div.top-header p {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;;
+}
+
+div.burger-menu {
+    text-align: center;
+}
+
+div.burger-menu i {
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
+}
+
+.price {
+    font-size: 18px;
+}
+
+.discount,
+.description {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+h3,
+.description {
+    color: #666;
+}
+
+.description {
+    display: none;
+    margin-top: 20px;
+}
+
+section.banner img {
+    width: 100%;
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+main section article {
+    background-color: #fff;
+    margin: 10px 0px;
+}
+
+main section article img {
+    width: 100%;
+}
+
+main section article i,
+.discount {
+    color: #39b54a;
+}
+
+main section article i {
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+
+main section h3 {
+    margin: 20px 0px;
+}
+
+article div.main-article {
+    width: 100%;
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+article div.main-article .price{
+    width: 30%;
+}
+
+article div.main-article .discount{
+    width: 70%;
+}
+
+.formregister, .formlogin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto';
+    padding: 60px;
+}
+
+.formregister label{
+width: 79%;
+padding: 20px 0px 10px 0px;
+font-weight: bold;
+
+}
+
+.formlogin input, .formlogin button, .formregister input, .formregister button{
+    width: 80%;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.formregister div{
+    align-self: center;
+}
+
+.formregister div input, label{
+    align-self: center;
+    width: 4vw;
+
+}
+
+.formlogin button, .formregister button{
+    color:black;
+    background-color:RGB(53, 134, 240);
+}
+
+footer section {
+text-align: center;
+margin-top: 40px;
+}
+
+footer section div i{
+    color: #1259c3;
+    font-size: 2em;
+    line-height: 100px;
+    border-bottom: 100px;
+    margin: auto;
+}
+
+footer section h4, footer section section p{
+text-align: center;
+}
+
+footer h4{
+    font-size: 16px;
+    font-weight:bolder;
+    color: #666;
+}
+
+footer p{
+    font-size: 12px;
+}
+
+.copyright{
+    text-align: left;
+}
+
+@media (min-width: 361px) {
+
+    header div.top-header div.logo {
+    width: 33%;
+}
+
+    header div.top-header div.form {
+    width: 33%;
+    display: flex;
+}
+
+    header div.top-header p {
+    width: 33%;
+}
+
+    header nav {
         display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    
-        }
-    .compraEnCuotas{
-        max-width: 500px;
-        flex-grow: 1;
-        display: flex;
-        align-self: center;
-       
-    }
-.compraEnCuotas p {
-        width: 20vw;
-    }
-.BarraBusqueda{
-            display: block;
-            font-size: 12px;
-            max-width: 500px;
-            text-align: center;
-            flex-grow: 2;
-            align-self: center;
-            width: 50vw;
-        }
-.BarraBusqueda input{
-            width: 20vw;
-        }
-.Logo{
-            flex-grow: 1;
-            width: 8vw;
-        }
-article{
-        box-shadow: 0px 0px 10px rgb(100,100,100);
-        border-radius: 5px;
-        margin-left: 20px;
-        margin-right: 20px;
-        min-width: 180px;
-        text-align: left;
-    }
-    article box1 :hover{
-        box-shadow: #666;
-    }
-    
-    .nombreArticulo{
-        font-size: 12px;
-        color: #666;
-        display: inline-block;
-    }
-    .fa-truck :hover{
-     transform: rotateZ(-90deg);
-     transition-duration: 5seg;   
-    }
-    .nav{
-        display:flex;
-        color: #000;
-        list-style: none;
         justify-content: space-around;
-        font-size: 5px;
+
     }
-    .navbarDere{
-        align-self: flex-end;
-        display: flex;
-        flex-wrap: wrap;
-        font-size: 5rem;
+
+    header nav ul{
+       display: flex;
     }
-    .navbarDere li {
-        width: 15vw;
-        justify-content: space-around;
-        text-align: end;
+
+    header nav ul li{
+        margin: 0 5px;
     }
-    .navbarIzq{
-        align-self: flex-end;
-        display: flex;
-        flex-wrap: wrap;
-        font-size: 5rem;
-    }
-    .navbarIzq li {
-        width: 10vw;
-        justify-content: space-around;
-        text-align: start;
-    }
-    
+
     .burger-menu{
         display: none;
     }
-    .burger-menu i{
+    main section div.products{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    main section article .description {
+        display: block;
+    }
+
+    main section article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 45%;
+        
+    }
+    main section article i :hover{
+        transform: rotate(-90deg);
+        transition-duration: 1s;
+    }
+
+    article div.main-article .price{
+    width: 60%;
+}
+
+    article div.main-article .discount{
+    width: 40%;
+}
+}
+
+@media (min-width: 769px) {
+    main section div.products article {
+        box-shadow: none;
+        width: 22%;
+    }
+
+    main section div.products article:hover {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    main section article .description {
         display: none;
     }
 
-    .sectionBasado{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
+    main section article:hover .description {
+        display: block;
     }
-    
-    .sectionOfertas{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
+main section article i:hover{
+    transform: rotate(-90deg);
+    transition-duration: 1s;
+}
+    main section form.formlogin button:hover, main section form.formregister button:hover{
+        background-color: #0022AA;
     }
 
-}}
+    footer section.footer{
+        display: flex;
+    }
+
+
+    footer section div i:hover{
+    color: #3283a8;
+    align-content: center;
+
+}
+
+}
+
+ 
+ 
